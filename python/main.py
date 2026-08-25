@@ -12,3 +12,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+name=input("Enter full name ")
+dep=input("Enter your Department ")
+con=input("Enter your Contact email")
+access=input("Enter your Access Level ")
+print ("Hello")
+print (name)
+print (dep)
+print (con)
+print (access)
