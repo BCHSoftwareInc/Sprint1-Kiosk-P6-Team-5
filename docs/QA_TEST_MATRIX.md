@@ -3,7 +3,7 @@
 * **Client Deliverable:** Console Interactive Kiosk
 
 | Test ID | Target Input Field | Test Input Description | Expected Output | Actual Behavior | Status (Pass/Fail) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :20 | :name, email, access, department | yea | :make id for bch software  | :makes id for software | :pass |
 | TC-01 | Full Name | Standard text (`"Jane Doe"`) | Formatted correctly in ASCII box | | |
 | TC-02 | Department/Role | Blank input (`""`) | Handles gracefully without crash | | |
 | TC-03 | Email / Contact | Valid string (`"test@bch.org"`) | Stored & printed accurately | | |
