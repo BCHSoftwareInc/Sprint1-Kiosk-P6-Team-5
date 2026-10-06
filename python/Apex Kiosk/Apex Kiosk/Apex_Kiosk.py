@@ -9,6 +9,6 @@ print ("|---------------------------------------------------------------------|"
 print ("| Attendee: "+name.ljust(58)+"|")
 print ("| Org: BCH "+dep.ljust(59)+"|")
 print ("| Contact: "+con.ljust(59)+"|")
-print ("| Access: "+access.ljust(60)+"|")
+print ("| Access (Member, Staff, VIP, ect): "+access.ljust(34)+"|")
 print ("| Issuer: BCH Software Terminal System                                |")
 print ("|---------------------------------------------------------------------|")
