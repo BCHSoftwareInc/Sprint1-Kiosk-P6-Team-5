@@ -12,10 +12,17 @@ class TurnstileGate:
 
     def scan(self, ticket_type, height_in, age, has_guardian):
         # TODO 1: result = check_entry(...) with the four inputs
+        result = check_entry(ticket_type, height_in, age, has_guardian)
+        
         # TODO 2: if is_granted(result), add 1 to self.granted_count - otherwise add 1 to self.denied_count
+        if is_granted(result):
+            self.granted_count += 1
+        else:
+            self.denied_count += 1
+            
         # TODO 3: return result
-        return "TODO"
+        return result
 
     def total_scans(self):
         # TODO: return granted + denied
-        return 0
+        return self.granted_count + self.denied_count
